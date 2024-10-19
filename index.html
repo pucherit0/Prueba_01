@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/x-icon" href="imagenes/Logo.png">
+    <title>World Of Fantasy</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <nav>
+                <ul>
+                    <li>
+                        <img src="imagenes/Logo.png" alt="" width="50px" height="50px">
+                    </li>
+                </ul>
+                <ul>
+                    <li><a href="http://wof-studies.es/Wof.zip">JUEGA GRATIS</a></li>
+                    <li>
+                        <a href="https://discord.gg/WVAJfMUGVD">
+                            <img src="imagenes/Discord.png" alt="" width="50px" height="50px"> 
+                        </a>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                <a href="*"></a>
+                                    <img src= "imagenes/Banderas/spain.gif" width="20" height="15"> Spain
+                                </a>
+                            </button>
+                            
+                            <div class="dropdown-content">
+                                <a href="EN/index.html">
+                                    <img src="imagenes/Banderas/United-Kingdom.gif" width="20" height="15"> England
+                                </a>
+                                <a href="RUS/index.html">
+                                    <img src="imagenes/Banderas/russian.gif" width="20" height="15"> Russian
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <body>
+        <div class="header-updates">
+            <br>
+            <h2>10 DE JUNIO DE 2024</h2>
+            <br>
+            <h3>ACTUALIZACIÓN 1.7</h3>
+            <li>NUEVOS OBJETOS:</li>
+            <img class="Imagen-Update" src="imagenes/Inventario/Talisman_del_ocultista.jpg"> 
+            <div class="text-box">
+                <h2>TALISMÁN DEL OCULTISTA</h2>
+                <li>Te otorga invisibilidad a ti o a un héroe aliado durante un máximo de 15 segundos mientras la unidad objetivo permanezca inmóvil</li>
+            </div>
+
+            <img class="Imagen-Update" src="imagenes/Inventario/Espada_del_ocultista.jpg"> 
+            <div class="text-box">
+                <h2>ESPADA DEL OCULTISTA</h2>
+                <li>Te vuelve invisible durante 17 segundos o hasta que ataques o lancces un hechizo. Mientras movimiento entre las sombras está activo, te mueves un 20% mas rápido y puedes pasar a través de las unidades</li>
+            </div>
+
+            <li>NUEVAS HABILIDADES:</li>
+            
+            <img class="Imagen-Update" src="imagenes/Habilidades/Viaje_Astral.jpg"> 
+            <div class="text-box">
+                <h2>VIAJE ASTRAL</h2>
+                <li>Destierra a la unidad objetivo del campo de batalla durante un breve período. Al regresar, se crean dos ilusiones de la unidad desterrada bajo el control de Viaje astral</li>
+            </div>
+
+            <img class="Imagen-Update" src="imagenes/Habilidades/Embestida.jpg"> 
+            <div class="text-box">
+                <h2>EMBESTIDA</h2>
+                <li>Te vuelve invisible durante 17 segundos o hasta que ataques o lancces un hechizo. Mientras movimiento entre las sombras está activo, te mueves un 20% mas rápido y puedes pasar a través de las unidades</li>
+            </div>
+
+            <img class="Imagen-Update" src="imagenes/Habilidades/Frenesi.jpg"> 
+            <div class="text-box">
+                <h2>FRENESÍ</h2>
+                <li>Con cada golpe continuo al mismo objetivo, gana mayor velocidad de ataque. Si cambia de objetivo, las acumulaciones caen a cero</li>
+            </div>
+
+            <img class="Imagen-Update" src="imagenes/Habilidades/Maldicion_de_la_oscuridad.jpg"> 
+            <div class="text-box">
+                <h2>MALDICIÓN DE LA OSCURIDAD</h2>
+                <li>Golpea a un enemigo, reduciendo la velocidad de movimiento del objetivo. Si el objetivo recibe 4 golpes, se ve afectado por una maldición que lo silencia y ralentiza, y todos los ataques contra él obtienen un aumento de velocidad de ataque</li>
+            </div>
+
+            <li>MEJORAS:</li>
+            <div class="text-box">
+                <li>Mejora visual del popup de las habilidades</li>
+                <li>Mejora visual del popup de los objetos</li>
+                <li>Mejora al centrar la cámara con el jugador principal (Pulsando F1, pulsando con 2 click la imagen de un héroe aliado): Ahora se centra el jugador al centro de la pantalla</li>
+                <li>Mejora del fondo que muestra el modelo de la unidad seleccionada y la seleccion de los perfiles con multiples unidades</li>
+            </div>
+
+            <li>CORRECCIONES:</li>
+            <div class="text-box">
+                <li>Escalado del modelo de Yeikov</li>
+                <li>Modificado colisionador garfio de asalto</li>
+                <li>Se corrigió que al usar varias auras, una machacaba a la otra, ahora ya no se machacan lo cual hace que no se borren los buffs previos</li>
+                <li>Al usar el comando -respawn cuando estas muerto, antes seguía mostrando la cuenta atrás tras resucitar, ya no se muestra</li>
+                <li>Al lanzar habilidades con el estado enraizado: Antes no se podían lanzar habilidades, ahora si,  con algunas excepciones en algunas habilidades y objetos como por ej usar portal de teletransporte, bastón de teletransportación, brincar, ect</li>
+                <li>Cuando moría una unidad controlada, cuando realizabas cualquier acción (usar una habilidad, usar un objeto inventario, caminar, ect) no cambiaba a tu héroe principal, lo cual te obligaba a seleccionarlo</li>
+                <li>Al usar una habilidad de ocultación, no cortaba las canalizaciones sobre el objetivo</li>
+                <li>Comando -levelbots no funcionaba a veces, ahora siempre funciona</li>
+                <li>La opción autoseleccionar unidades de configuración, no se guardaba en el conf.ini, ahora ya se guarda correctamente</li>
+                <li>Al iniciar sesión, el campo nickname, podía modificarse sin pulsar previamente el botón de editar, ahora ya sólo se puede modificar cuando esté en modo edición</li>
+                <li>Se ha corregido el autosize de los nombres de las regiones, ya que aveces no se mostraban dependiendo del tamaño del nombre</li>
+                <li>Ahora se muestra el numero de jugadores que hay conectados a una sala personalizada</li>
+                <li>Al subir de nivel una habilidad que tiene buffs asociados (Ej: Elementos de agua,tieera,fuego) antes se eliminaban, ahora se actualizan con el nuevo nivel</li>
+                <li>Las habilidades o objetos con la propiedad Bash, se activaban cuando tenían nivel 0, ahora se activa sólo cuando su nivel es mayor a 0</li>
+            </div>
+        </div>
+
+        <div class="header-updates">
+            <br>
+            <h2>10 DE JUNIO DE 2024</h2>
+            <br>
+            <h3>ACTUALIZACIÓN 1.7</h3>
+            <li>NUEVOS OBJETOS:</li>
+            <img class="Imagen-Update" src="imagenes/Inventario/Talisman_del_ocultista.jpg"> 
+            <div class="text-box">
+                <h2>TALISMÁN DEL OCULTISTA</h2>
+                <li>Te otorga invisibilidad a ti o a un héroe aliado durante un máximo de 15 segundos mientras la unidad objetivo permanezca inmóvil</li>
+            </div>
+
+            <img class="Imagen-Update" src="imagenes/Inventario/Espada_del_ocultista.jpg"> 
+            <div class="text-box">
+                <h2>ESPADA DEL OCULTISTA</h2>
+                <li>Te vuelve invisible durante 17 segundos o hasta que ataques o lancces un hechizo. Mientras movimiento entre las sombras está activo, te mueves un 20% mas rápido y puedes pasar a través de las unidades</li>
+            </div>
+
+            <li>NUEVAS HABILIDADES:</li>
+            
+            <img class="Imagen-Update" src="imagenes/Habilidades/Viaje_Astral.jpg"> 
+            <div class="text-box">
+                <h2>VIAJE ASTRAL</h2>
+                <li>Destierra a la unidad objetivo del campo de batalla durante un breve período. Al regresar, se crean dos ilusiones de la unidad desterrada bajo el control de Viaje astral</li>
+            </div>
+
+            <img class="Imagen-Update" src="imagenes/Habilidades/Embestida.jpg"> 
+            <div class="text-box">
+                <h2>EMBESTIDA</h2>
+                <li>Te vuelve invisible durante 17 segundos o hasta que ataques o lancces un hechizo. Mientras movimiento entre las sombras está activo, te mueves un 20% mas rápido y puedes pasar a través de las unidades</li>
+            </div>
+
+            <img class="Imagen-Update" src="imagenes/Habilidades/Frenesi.jpg"> 
+            <div class="text-box">
+                <h2>FRENESÍ</h2>
+                <li>Con cada golpe continuo al mismo objetivo, gana mayor velocidad de ataque. Si cambia de objetivo, las acumulaciones caen a cero</li>
+            </div>
+
+            <img class="Imagen-Update" src="imagenes/Habilidades/Maldicion_de_la_oscuridad.jpg"> 
+            <div class="text-box">
+                <h2>MALDICIÓN DE LA OSCURIDAD</h2>
+                <li>Golpea a un enemigo, reduciendo la velocidad de movimiento del objetivo. Si el objetivo recibe 4 golpes, se ve afectado por una maldición que lo silencia y ralentiza, y todos los ataques contra él obtienen un aumento de velocidad de ataque</li>
+            </div>
+
+            <li>MEJORAS:</li>
+            <div class="text-box">
+                <li>Mejora visual del popup de las habilidades</li>
+                <li>Mejora visual del popup de los objetos</li>
+                <li>Mejora al centrar la cámara con el jugador principal (Pulsando F1, pulsando con 2 click la imagen de un héroe aliado): Ahora se centra el jugador al centro de la pantalla</li>
+                <li>Mejora del fondo que muestra el modelo de la unidad seleccionada y la seleccion de los perfiles con multiples unidades</li>
+            </div>
+
+            <li>CORRECCIONES:</li>
+            <div class="text-box">
+                <li>Escalado del modelo de Yeikov</li>
+                <li>Modificado colisionador garfio de asalto</li>
+                <li>Se corrigió que al usar varias auras, una machacaba a la otra, ahora ya no se machacan lo cual hace que no se borren los buffs previos</li>
+                <li>Al usar el comando -respawn cuando estas muerto, antes seguía mostrando la cuenta atrás tras resucitar, ya no se muestra</li>
+                <li>Al lanzar habilidades con el estado enraizado: Antes no se podían lanzar habilidades, ahora si,  con algunas excepciones en algunas habilidades y objetos como por ej usar portal de teletransporte, bastón de teletransportación, brincar, ect</li>
+                <li>Cuando moría una unidad controlada, cuando realizabas cualquier acción (usar una habilidad, usar un objeto inventario, caminar, ect) no cambiaba a tu héroe principal, lo cual te obligaba a seleccionarlo</li>
+                <li>Al usar una habilidad de ocultación, no cortaba las canalizaciones sobre el objetivo</li>
+                <li>Comando -levelbots no funcionaba a veces, ahora siempre funciona</li>
+                <li>La opción autoseleccionar unidades de configuración, no se guardaba en el conf.ini, ahora ya se guarda correctamente</li>
+                <li>Al iniciar sesión, el campo nickname, podía modificarse sin pulsar previamente el botón de editar, ahora ya sólo se puede modificar cuando esté en modo edición</li>
+                <li>Se ha corregido el autosize de los nombres de las regiones, ya que aveces no se mostraban dependiendo del tamaño del nombre</li>
+                <li>Ahora se muestra el numero de jugadores que hay conectados a una sala personalizada</li>
+                <li>Al subir de nivel una habilidad que tiene buffs asociados (Ej: Elementos de agua,tieera,fuego) antes se eliminaban, ahora se actualizan con el nuevo nivel</li>
+                <li>Las habilidades o objetos con la propiedad Bash, se activaban cuando tenían nivel 0, ahora se activa sólo cuando su nivel es mayor a 0</li>
+            </div>
+        </div>
+    </body>
+</body>
+</html>
